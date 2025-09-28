@@ -1,4 +1,4 @@
-# A Minimalist Oh My Posh Theme
+# Dot and Bolt: Oh My Posh Theme
 
 A clean, two-line, and minimalist theme for [Oh My Posh](https://ohmyposh.dev/). It focuses on providing essential information, the current directory and Git status without cluttering the terminal.
 
