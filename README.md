@@ -2,12 +2,11 @@
 
 A clean and minimalist theme for [Oh My Posh](https://ohmyposh.dev/). It focuses on providing essential information, the current directory and Git status without cluttering the terminal.
 
-## Preview
+## Previews
 
-![Project Preview](./preview/preview.png)
+![Project Preview](./preview/git-on-preview.png)
 
-![Project Preview](./preview/git-bash-preview.png)
-
+![Project Preview](./preview/git-off-preview.png)
 
 ## Requirements
 
@@ -72,6 +71,7 @@ You can easily customize this theme by editing the `dot-and-bolt.omp.json` file.
 - **Change colors:** Modify the `foreground` hex color codes (e.g., `#43CCEA`) to match your preferred color scheme.
 - **Change icons:** Replace the Unicode characters in the `template` fields (e.g., `\u2B22` for the diamond `⬢` or `\u26A1` for the lightning bolt `⚡`) with any other icon from your Nerd Font.
 - **Show Git Branch:** To display the current Git branch name, modify the `git` segment's template:
+
   ```json
   "template": "<#F1FA8C>\u26A1</> <b>{{ .Head }}</b>"
   ```
