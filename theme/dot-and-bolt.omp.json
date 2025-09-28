@@ -31,7 +31,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#000000",
+          "foreground": "#838383",
           "style": "plain",
           "template": ">",
           "type": "text"

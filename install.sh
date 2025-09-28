@@ -1,4 +1,5 @@
 #!/bin/bash
+
 THEME_FILE_PATH="./theme/dot-and-bolt.omp.json"
 THEME_FILENAME="dot-and-bolt.omp.json"
 
@@ -34,4 +35,6 @@ fi
 THEMES_PATH_BASH="${THEMES_PATH//\\//}"
 
 echo -e "\033[0;32mInstallation Complete!\033[0m\n"
-echo -e "\033[0;33mNext, add the following line to your ~/.bashrc, ~/.zshrc, or your shell's configuration file.\033[0m"
+echo -e "\033[0;33mNext, add the following line to your ~/.bashrc, ~/.zshrc, or your shell's configuration file:\033[0m"
+echo ""
+echo -e "\033[1;37meval \"\$(oh-my-posh init bash --config '${THEMES_PATH_BASH}/${THEME_FILENAME}')\"\033[0m"

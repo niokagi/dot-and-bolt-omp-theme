@@ -6,6 +6,9 @@ A clean and minimalist theme for [Oh My Posh](https://ohmyposh.dev/). It focuses
 
 ![Project Preview](./preview/preview.png)
 
+![Project Preview](./preview/git-bash-preview.png)
+
+
 ## Requirements
 
 1.  **Oh My Posh:** You must have Oh My Posh installed and configured for your shell.
