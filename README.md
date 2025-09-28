@@ -1,8 +1,9 @@
 # Dot and Bolt: Oh My Posh Theme
 
-A clean, two-line, and minimalist theme for [Oh My Posh](https://ohmyposh.dev/). It focuses on providing essential information, the current directory and Git status without cluttering the terminal.
+A clean and minimalist theme for [Oh My Posh](https://ohmyposh.dev/). It focuses on providing essential information, the current directory and Git status without cluttering the terminal.
 
 ## Preview
+
 ![Project Preview](./preview/preview.png)
 
 ## Requirements
@@ -12,11 +13,43 @@ A clean, two-line, and minimalist theme for [Oh My Posh](https://ohmyposh.dev/).
 
 ## Installation
 
+You can install the theme automatically using the provided script or manually by copying the file.
+
+### Automatic Installation (Linux, macOS, WSL)
+
+This is the recommended method for users on Bash or Zsh.
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/niokagi/dot-and-bolt-theme.git
+    cd dot-and-bolt
+    ```
+
+2.  **Run the installation script:**
+    First, make the script executable, then run it.
+
+    ```bash
+    chmod +x install.sh
+    ./install.sh
+    ```
+
+3.  **Follow the on-screen instructions:**
+    The script will copy the theme file to the correct directory and then provide you with the exact line you need to add to your shell's configuration file (e.g., `~/.bashrc` or `~/.zshrc`).
+
+4.  **Reload your shell:**
+    Restart your terminal or source your profile to apply the changes.
+    ```bash
+    source ~/.bashrc # or source ~/.zshrc
+    ```
+
+### Manual Installation
+
 1.  **Save the theme:**
-Save the JSON code provided into a file. A good name would be `dot-and-bolt.omp.json`. Place this file in your Oh My Posh themes folder (you can find the location by running `echo $POSH_THEMES_PATH` in your terminal).
+    Locate the `dot-and-bolt.omp.json` file inside the `theme` folder. Copy this file to your Oh My Posh themes folder. You can find the location by running `echo $POSH_THEMES_PATH` in your terminal.
 
 2.  **Update your shell profile:**
-Modify your shell's configuration file (e.g., `$PROFILE` for PowerShell, `.zshrc` for Zsh, or `.bashrc` for Bash) to use this new theme.
+    Modify your shell's configuration file (e.g., `$PROFILE` for PowerShell, `.zshrc` for Zsh, or `.bashrc` for Bash) to use this new theme.
 
     **Example for PowerShell:**
 
@@ -24,10 +57,10 @@ Modify your shell's configuration file (e.g., `$PROFILE` for PowerShell, `.zshrc
     oh-my-posh init pwsh --config 'C:\path-to-your-themes\dot-and-bolt.omp.json' | Invoke-Expression
     ```
 
-    _Replace `C:\path\to\your\themes\` with the actual path to where you saved the file._
+    _Replace `C:\path-to-your-themes\` with the actual path to your themes folder._
 
 3.  **Reload your shell:**
-Restart your terminal or reload your profile (e.g., by running `. $PROFILE` in PowerShell) for the changes to take effect.
+    Restart your terminal or reload your profile (e.g., by running `. $PROFILE` in PowerShell) for the changes to take effect.
 
 ## Customization
 
