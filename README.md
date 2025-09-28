@@ -24,7 +24,7 @@ This is the recommended method for users on Bash or Zsh.
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/niokagi/dot-and-bolt-theme.git
+    git clone https://github.com/niokagi/dot-and-bolt-omp-theme.git
     cd dot-and-bolt
     ```
 
